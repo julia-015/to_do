@@ -16,12 +16,11 @@ class ToDo():
         else:
             return None
 
-# add parametro tarefa
+
     def ListarTarefas(self): 
         with open('tarefa.txt', 'r') as arquivo:
             tarefas = arquivo.readlines()
-        
-        # Use strip to remove leading/trailing whitespace from each task
+    
         tarefas = [tarefa.strip() for tarefa in tarefas]
 
         return tarefas

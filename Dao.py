@@ -1,4 +1,5 @@
 import random
+from Model import *
 
 class DAO:
     def __init__(self, arquivo):
@@ -22,13 +23,3 @@ class DAO:
             Arquivo.write(f"{self.id} \t {tarefa}\n")
     
         self.ids_salvos.append(self.id)
-
-    def listar_tarefas(self):
-        with open('seuarquivo.txt', 'r') as arquivo:
-            tarefas = arquivo.readlines()
-        
-        # Use strip to remove leading/trailing whitespace from each task
-        tarefas = [tarefa.strip() for tarefa in tarefas]
-
-        return tarefas
-        # Enviar parametro para a model

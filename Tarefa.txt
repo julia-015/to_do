@@ -54,3 +54,15 @@ ID 		 TAREFA
 ID 		 TAREFA
 
 6138 	 ifhi
+----------------
+ID 		 TAREFA
+
+6525 	 rgrg
+----------------
+ID 		 TAREFA
+
+7508 	 fcekncek
+----------------
+ID 		 TAREFA
+
+3861 	 dqbciw
