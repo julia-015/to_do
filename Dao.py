@@ -1,5 +1,4 @@
 import random
-from Model import *
 
 class DAO:
     def __init__(self, arquivo):
